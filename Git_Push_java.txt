@@ -1,0 +1,47 @@
+Git Java
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+
+
+91701@LordOmega MINGW64 ~/Desktop
+$ cd GitJava
+
+91701@LordOmega MINGW64 ~/Desktop/GitJava (master)
+$ ls
+'JAVA CODES.txt'  'JAVA PATTERNS .txt'   Loops,EXE_TEST.txt
+
+91701@LordOmega MINGW64 ~/Desktop/GitJava (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/91701/Desktop/GitJava/.git/
+
+91701@LordOmega MINGW64 ~/Desktop/GitJava (master)
+$ git add .
+
+91701@LordOmega MINGW64 ~/Desktop/GitJava (master)
+$ git commit -m "My first git commit"
+[master (root-commit) dfcf433] My first git commit
+ 3 files changed, 5560 insertions(+)
+ create mode 100644 JAVA CODES.txt
+ create mode 100644 JAVA PATTERNS .txt
+ create mode 100644 Loops,EXE_TEST.txt
+
+91701@LordOmega MINGW64 ~/Desktop/GitJava (master)
+$ git remote
+
+91701@LordOmega MINGW64 ~/Desktop/GitJava (master)
+$ git remote add origin https://github.com/Siddarthlcw/gitfirst.git
+
+91701@LordOmega MINGW64 ~/Desktop/GitJava (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 20.41 KiB | 5.10 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Siddarthlcw/gitfirst.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
